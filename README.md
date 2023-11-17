@@ -8,33 +8,6 @@ Technologies that was used in this project:
 
 ##  How to Install and Run the Project
 
-If you want to run this project locally(in hardhat localhost) you need to:
-
-1. Install dependencies
-```zsh
-npm i
-```
-2. Compile contract using
-```zsh
-npx hardhat compile
-```
-3. Run hardhat nodes
-```zsh
-npx hardhat node
-```
-4. Deploy to localhost
-```zsh
-npx hardhat run --network localhost scripts/deploy.js
-```
-5. Run server
-```zsh
-npm start
-```
-
----
-
-### If you want to deploy this project to test network:
-
 1. Create .env with following variables
 ```
     NETWORK=(which network).
