@@ -9,7 +9,7 @@ import contractABI from "./Todo.json"
 import Badge from 'react-bootstrap/Badge';
 
 
-const contractAddress = "0x0921030BEa8F8217C72daB4cE9dedE67713005F8"
+const contractAddress = "0xc1C4A15c052FCFCBAFFF195B94D68D78046aF8B8"
 
 
 function NavBar({accounts, setAccounts}) {
